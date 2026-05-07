@@ -1,3 +1,5 @@
+# O comando para comentar é ctrl + ;
+# Programa para atualizar o github: GitHub Desktop
 # print("Olá Mundo!")
 
 nome = "João" # string
