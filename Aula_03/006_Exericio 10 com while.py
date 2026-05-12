@@ -53,4 +53,4 @@ while opcao == "sim":
 
     opcao = input("Deseja executar o código novamente? (sim / não): ").lower()
 
-print("\nObrigado por usar o sistema")
+print("\nObrigado por usar nosso sistema!!!")
