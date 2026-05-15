@@ -1,4 +1,5 @@
-# O comando para comentar é ctrl + ;
+# O comando para comentar é (ctrl + ;)
+# O comando para quebrar linha que extrapola a largura da tela é (alt + z)
 # Programa para atualizar o github: GitHub Desktop
 # print("Olá Mundo!")
 

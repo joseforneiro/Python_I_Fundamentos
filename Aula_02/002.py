@@ -1,5 +1,5 @@
 import os
-os.system('cls' if os.name=='nt' else 'clear') 
+os.system('cls' if os.name=='nt' else 'clear') # resultado se verdadeiro para a condição se não resultado para se falso
 # Todo o sistema windows tem nome nt.
 # Então se for windows vai usar cls e se for linux clear
 
