@@ -9,8 +9,12 @@ requisicao = requests.get(url)
 
 site = BeautifulSoup(requisicao.text, "html.parser") # Transforma o texto em html
 
-# titulos = site.find_all("h3")
+titulos = site.find_all("ul", class_="event_date")
+dataT = site.find_all("time")
+
 # for t in titulos:
 #     print(t.text)
 
-print(site.prettify()) # organiza o texto html
+for data in dataT:
+    print(data.text)
+
