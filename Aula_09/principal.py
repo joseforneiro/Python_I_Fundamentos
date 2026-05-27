@@ -10,10 +10,10 @@ try:
     df = pd.DataFrame(titulos)
 
     # salvando em CSV
-    df.to_csv("titulos.csv", index=False)
+    df.to_csv("aula09_titulos.csv", index=False)
 
     # sakvabdi en JSON
-    df.to_json("titulos.json", orient="records", indent=4, force_ascii=False)
+    df.to_json("aula09_titulos.json", orient="records", indent=4, force_ascii=False)
 
     print("\nArquivos CSV e JSON criados com sucesso!!!")
 

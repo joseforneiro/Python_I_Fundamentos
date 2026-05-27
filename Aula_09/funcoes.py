@@ -20,7 +20,7 @@ def extrair_titulos(url,seletor):
 
         for t in titulos_html:
             if t:
-                titulos.append(t.text.strip()) # O strip tira os espaços
+                titulos.append({"Titulos": t.text.strip()}) # O strip tira os espaços
         
         for titulo in titulos:
             print(titulo)
