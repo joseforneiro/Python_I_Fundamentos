@@ -55,5 +55,33 @@ def exe02():
     except Exception as erro:
         print(f"Erro: {erro}")
 
+def exe03():
+    try:
+        lista = [1,2,3,4,5,6,7,8,9,10]
 
-exe02()
+        print(f"Maior número: {maior_numero(lista)}")
+        print(f"Menor número: {menor_numero(lista)}")
+        print(f"Média: {media_numero(lista)}")
+        print(f"Números pares: {numeros_pares(lista)}")
+
+
+    except Exception as erro:
+        print(f"Erro: {erro}")    
+
+def exe04():
+    try:
+        extrair_titulos("https://www.globo.com/","h2.post__title")
+
+    except Exception as erro:
+        print(f"Erro: {erro}")
+
+def exe05():
+    try:
+        quantidade = extrair_links("https://www.uol.com/","a")
+        print(quantidade)
+        
+    except Exception as erro:
+        print(f"Erro: {erro}")
+
+
+exe05()
