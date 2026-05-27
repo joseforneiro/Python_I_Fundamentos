@@ -1,0 +1,17 @@
+{
+    "0":{
+        "cep":"12233-000",
+        "logradouro":"Avenida Andrômeda",
+        "complemento":"de 2533 ao fim - lado ímpar",
+        "unidade":"",
+        "bairro":"Bosque dos Eucaliptos",
+        "localidade":"São José dos Campos",
+        "uf":"SP",
+        "estado":"São Paulo",
+        "regiao":"Sudeste",
+        "ibge":"3549904",
+        "gia":"6452",
+        "ddd":"12",
+        "siafi":"7099"
+    }
+}
